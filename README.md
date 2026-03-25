@@ -8,7 +8,7 @@
 
 This project implements a **2-hidden-layer Feedforward Neural Network (FFNN)** entirely from scratch using NumPy to predict **aircraft pitch** from real flight telemetry data. Forward propagation, backpropagation, and weight updates are all hand-coded — without using any deep learning framework (no TensorFlow or PyTorch).
 
-The project compares three activation functions (**Sigmoid, Tanh, ReLU**) and two training modes (**Batch Gradient Descent** vs. **Stochastic Gradient Descent**), with early stopping to prevent overfitting.
+The project compares three activation functions (**Sigmoid, Tanh, ReLU**) and two training modes (**Batch Gradient Descent** vs. **Stochastic Gradient Descent**), with early stopping to prevent overfitting the model.
 
 ---
 
