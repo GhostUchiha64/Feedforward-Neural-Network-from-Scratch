@@ -1,0 +1,18 @@
+features = ['altitude', 'indicated_airspeed', 'roll']
+target = 'pitch'
+
+# Standardize features using Z-score
+scaler_X = StandardScaler()
+X = scaler_X.fit_transform(df[features])
+
+# Keep target as-is for now, or normalize separately if required
+y = df[target].values.reshape(-1, 1)
+
+# Split into training and test sets (80% training, 20% testing)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Print to confirm
+print("X_train shape:", X_train.shape)
+print("y_train shape:", y_train.shape)
+print("X_test shape:", X_test.shape)
+print("y_test shape:", y_test.shape)
