@@ -85,12 +85,8 @@ The model was trained under all activation × training-mode combinations:
 Team Project 2/
 ├── README.md
 ├── nnmodelflight.py                                              # Main FFNN implementation
-├── input_fl_12477                                               # Raw flight telemetry data
-├── Extra.txt                                                    # Alternate feature config notes
-├── Neural_Network_Pitch_Prediction_Report.docx                 # Final report (Word)
-├── project2-SriVamsiChitta,PrabhjyotChavan,SiddarthaBandi.pdf  # Team submission (PDF)
-├── project2-SriVamsiChitta,PrabhjyotChavan,SiddarthaBandi.docx # Team submission (Word)
-└── Project 2.pdf                                               # Project specification
+├── input_fl_12477                                                # Raw flight telemetry data
+├── Report.pdf                                                    # Team submission (PDF)
 ```
 
 > **Note:** The `.zip` archive is excluded from this repository.
